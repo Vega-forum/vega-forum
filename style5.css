@@ -42,8 +42,9 @@ html {
   padding:20px;
   justify-content: center;
   color: white;
+  text-align: center;
 }
-}
+
 
 .page_intervenants {
   display: flex;
