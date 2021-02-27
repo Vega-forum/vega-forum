@@ -156,11 +156,11 @@ html {
   }
 
   .presentation h3{
-    font-size: 36px;
+    font-size: 26px;
   }
 
   .presentation p{
-    font-size: 30px;
+    font-size: 20px;
   }
   .bandeau img{
     object-fit: cover;
@@ -171,6 +171,6 @@ html {
   }
 
   .bouton p {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
