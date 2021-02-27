@@ -138,6 +138,7 @@ html {
 @media screen and (max-width: 1000px){
   .bouton {
     width: 90%;
+    text-align: justify;
   }
   .intervenants_container {
     display: flex;
