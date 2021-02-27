@@ -78,8 +78,9 @@
 .home_menu:hover .mod_link{
   color: white;
   text-decoration: none;
-  border: 5px black solid;
+  opacity: 80%;
   border-radius: 3px;
+  transition: 1s;
 
 }
 .home_menu_button {
