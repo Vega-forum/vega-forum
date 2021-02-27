@@ -135,11 +135,10 @@ transform: translate(-50%, -50%);
   .home_menu {
     justify-content: center;
     align-items: center;
-  }
-  .menu_image {
     width: 80vw;
     height: 80vw;
-    padding-bottom: -40px;
+  }
+  .menu_image {
     justify-content: center;
     align-items: center;
   }
