@@ -6,7 +6,7 @@
 
 /* page */
 
-
+/* Bandeau avec titre*/
 .bandeau {
   display: flex;
   flex-direction: column;
@@ -17,9 +17,9 @@
 .bandeau h1 {
   text-transform: uppercase;
   display: flex;
- justify-content: center;
- font-family: georgia;
- color: #fe8664;
+  justify-content: center;
+  font-family: georgia;
+  color: #fe8664;
 }
 
 .bandeau h2{
