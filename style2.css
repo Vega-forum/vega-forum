@@ -123,7 +123,7 @@ transform: translate(-50%, -50%);
   body {
     width:100%;
     min-width: 100%;
-    box-shadow: none;
+    box-shadow: none !important;
   }
   .bandeau {
    align-items: center;
