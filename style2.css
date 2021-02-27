@@ -54,6 +54,7 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+  display: flex;
 }
 
 .menu_image:hover {
@@ -92,9 +93,18 @@ transform: translate(-50%, -50%);
   .home_row {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .home_menu {
+    justify-content: center;
+    align-items: center;
   }
   .menu_image {
-    width: 85vw;
+    width: 70vw;
+    height: 70vw;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -104,26 +114,5 @@ transform: translate(-50%, -50%);
 
 /**/
 
-@media screen and (max-width: 1080px) {
 
-  .bandeau img{
-  object-fit: cover;
-  height: 240px;
-}
-.page_container {
-  display: flex;
-  flex-direction: column;
-}
-.desc_event {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-.img_event img {
-  object-fit: cover; /* GIIIIIIIIIIIGA IMPPPPPPOOOOOOOOOOOOOOOORTANT pour les images responsives qui dépassent des divs ou de l'écran*/
-  width:  100%;
-}
-
-}
-
-}
 /**/
