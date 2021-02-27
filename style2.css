@@ -115,7 +115,7 @@ transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1000px){
- 
+
   .bandeau {
    align-items: center;
    text-align: center;
@@ -124,6 +124,7 @@ transform: translate(-50%, -50%);
     display: flex;
     height: 35vh;
     max-width: 75vw;
+    object-fit: cover;
   }
   .home_row {
     display: flex;
