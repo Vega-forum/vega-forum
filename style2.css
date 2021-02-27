@@ -115,6 +115,9 @@ transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1000px){
+  body {
+    width: 100vw;
+  }
   .bandeau {
    align-items: center;
    text-align: center;
