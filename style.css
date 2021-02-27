@@ -1,0 +1,90 @@
+html{
+
+	padding: 2%;
+	background-color: white;
+
+
+}
+
+body {
+
+	box-shadow: 2px 2px 2px;
+	background-color: #d8d8d8;
+	-webkit-box-shadow: 5px 5px 15px 0px #000000; 
+	box-shadow: 5px 5px 15px 0px #000000;
+
+}
+
+
+
+
+/* Navbar */
+
+.navbar-custom{
+
+	background-color: white;
+	font-family: roboto, sans-serif;
+	border: #432482 2px solid;
+	border-radius: 0px;
+
+
+}
+
+#link_custom:hover{
+
+	border-bottom: #fe8664 solid 2px;
+	transition: 1.2s;
+
+
+}
+
+
+#link_custom{
+
+	border-bottom: transparent solid 2px;
+
+
+
+}
+
+.a-custom{
+
+	color: black !important;
+	
+}
+
+
+
+.a-custom:hover{
+
+	color: #fe8664 !important;
+}
+
+/**/
+
+
+/*Footer*/
+
+footer{
+
+	background-color: white;
+	padding: 2%;
+
+}
+
+
+.col-custom{
+
+	text-align: center;
+
+}
+
+
+.facebook{
+
+font-weight: 36px;
+
+}
+
+
+/**/
