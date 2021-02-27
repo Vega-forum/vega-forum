@@ -91,7 +91,7 @@ font-weight: 36px;
 @media screen and (max-width: 1000px){
  
  html {
-    min-width: 100%;
+    width: 100%;
     padding:0;
     display: flex;
     justify-content: center;
