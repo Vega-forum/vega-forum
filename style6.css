@@ -14,6 +14,9 @@
 	text-align: center;
 
 }
+.live_player a{
+	color: black;
+}
 
 @media screen and (max-width: 1000px){
 	iframe {
