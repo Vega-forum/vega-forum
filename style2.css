@@ -142,6 +142,7 @@ transform: translate(-50%, -50%);
   .menu_image {
     justify-content: center;
     align-items: center;
+    object-fit: cover;
   }
 }
 
