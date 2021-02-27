@@ -118,6 +118,9 @@ transform: translate(-50%, -50%);
   html {
     min-width: 100%;
     padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   body {
