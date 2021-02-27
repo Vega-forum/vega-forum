@@ -117,7 +117,7 @@ transform: translate(-50%, -50%);
 @media screen and (max-width: 1000px){
 
   .bandeau img {
-    max-height: 35vh;
+    height: 35vh;
     max-width: 75vw;
   }
   .home_row {
