@@ -71,12 +71,12 @@ body {
 
 /* Lien modifié par mes petits soins*/
 .mod_link {
-  color: #fe8664;
-  text-shadow: 1px 1px black;
+  color: white;
+  text-shadow: 2px 2px black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: georgia;
+  font-family: georgia (sans-serif);
   border: 5px transparent solid;
 }
 
