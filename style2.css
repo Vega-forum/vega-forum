@@ -18,7 +18,7 @@ body {
   margin-left: 12px;
   margin-right: 12px;
   text-align:center;
-  padding:8px;
+
 }
 .bandeau h1 {
   text-transform: uppercase;
@@ -126,6 +126,12 @@ transform: translate(-50%, -50%);
    align-items: center;
    text-align: center;
   }
+
+  .bandeau h1 {
+    margin: 10px;
+  }
+
+
   .bandeau img {
     display: flex;
     height: 35vh;
