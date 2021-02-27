@@ -1,0 +1,126 @@
+
+/*css du home*/
+
+
+
+
+/* page */
+
+
+
+/* Menu de sélection */
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* Div qui contient les 4 cases */
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+/* Div de 2 cases  */
+.home_row {
+  flex-direction: row;
+  display: flex;
+}
+/* une case*/
+.home_menu {
+  display: flex;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  width: 480px;
+  height: 480px;
+}
+
+/* Lien modifié par mes petits soins*/
+.mod_link {
+  color: #fe8664;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: georgia;
+  border: 5px transparent solid;
+}
+
+
+.menu_image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.menu_image:hover {
+
+}
+.home_menu:hover {
+  font-size: 22px;
+  
+}
+
+.home_menu:hover .menu_image {
+  filter: blur(3px);
+}
+.home_menu:hover .home_menu_button {
+  
+  padding: 5px;
+  padding-left:  25px;
+  padding-right: 25px;
+  
+}
+.home_menu:hover .mod_link{
+  color: white;
+  text-decoration: none;
+  border: 5px black solid;
+  border-radius: 3px;
+
+}
+.home_menu_button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1000px){
+  .home_row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/*Footer*/
+
+/**/
+
+@media screen and (max-width: 1080px) {
+
+  .bandeau img{
+  object-fit: cover;
+  height: 240px;
+}
+.page_container {
+  display: flex;
+  flex-direction: column;
+}
+.desc_event {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.img_event img {
+  object-fit: cover; /* GIIIIIIIIIIIGA IMPPPPPPOOOOOOOOOOOOOOOORTANT pour les images responsives qui dépassent des divs ou de l'écran*/
+  width:  100%;
+}
+
+}
+
+}
+/**/

@@ -1,0 +1,176 @@
+html {
+  font-family: Georgia ;
+}
+
+
+/* Bandeau supérieur */
+.bandeau {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-left: 2%;
+  margin-right:2%;
+  border-bottom: 2px darkgrey solid;
+  max-height: 500px;
+  background-color: white;
+}
+.bandeau img{
+  display: flex;
+  object-fit:contain;
+}
+#section_bouton {
+  background-color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* bouton */
+.bouton {
+  text-transform: uppercase;
+  font-size: 40px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+
+.bouton p {
+  background-color: #dd9366;
+  padding:20px;
+  justify-content: center;
+  color: white;
+}
+}
+
+.page_intervenants {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Conteneur de 3 cases  */
+.intervenants_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  padding-right: 8rem;
+  padding-left: 8rem;
+
+}
+
+/* Case (photo + texte)*/
+.intervenants_item_a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #f3dfd8;
+  object-fit: contain;
+  }
+ 
+
+.intervenants_item{
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  background-color: none; /* couleur des cases*/
+  object-fit: contain;
+  max-width: 400px;
+  min-width: 400px;
+  margin-bottom: 40px;
+}
+
+/* Photo de l'intervenant*/
+.photo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.photo  img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-top: 12px;
+  object-fit: cover;
+}
+
+.photo img:hover {
+  opacity: 92%;
+}
+
+/* texte sous la photo*/
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.presentation h3{
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+.presentation p{
+  font-size:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 2px;
+}
+
+.diplome {
+  color: #dd9366;
+}
+
+#bottom_container {
+  margin-bottom: 20px;
+}
+
+/* responsive */
+@media screen and (max-width: 1000px){
+  .bouton {
+    width: 90%;
+  }
+  .intervenants_container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    align-items: center;
+  }
+
+  .intervenants_item  {
+    min-width: 630px;
+  }
+  .photo img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .presentation h3{
+    font-size: 36px;
+  }
+
+  .presentation p{
+    font-size: 30px;
+  }
+  .bandeau img{
+    object-fit: cover;
+    height: 500px;
+  }
+  .bouton {
+    margin-left: 5%;
+  }
+
+  .bouton p {
+    font-size: 30px;
+  }
+}
