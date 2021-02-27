@@ -119,6 +119,10 @@ transform: translate(-50%, -50%);
     width: 100vw;
     padding:0;
   }
+
+  body {
+    width:100%;
+  }
   .bandeau {
    align-items: center;
    text-align: center;
