@@ -115,19 +115,7 @@ transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1000px){
-  html {
-    min-width: 100%;
-    padding:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  body {
-    width:100%;
-    min-width: 100%;
-    box-shadow: none !important;
-  }
+ 
   .bandeau {
    align-items: center;
    text-align: center;
