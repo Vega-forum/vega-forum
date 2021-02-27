@@ -7,6 +7,31 @@
 /* page */
 
 
+.bandeau {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-bottom: grey 2px solid;
+}
+.bandeau h1 {
+  text-transform: uppercase;
+  display: flex;
+ justify-content: center;
+ font-family: georgia;
+ color: #fe8664;
+}
+
+.bandeau h2{
+  display: flex;
+  justify-content: center;
+  font-family: georgia;
+}
+.bandeau img {
+  display: flex;
+  max-height : 700px;
+  object-fit: contain;
+}
 
 /* Menu de sélection */
 .menu {
@@ -90,6 +115,11 @@ transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1000px){
+
+  .bandeau img {
+    max-height: 35vh;
+    max-width: 75vw;
+  }
   .home_row {
     display: flex;
     flex-direction: column;
