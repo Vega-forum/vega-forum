@@ -154,6 +154,7 @@
   transition: 0.5s;
   border-radius: 12px;
   padding: 1%;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 1000px){
