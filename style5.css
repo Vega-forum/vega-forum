@@ -148,11 +148,11 @@ html {
   }
 
   .intervenants_item  {
-    min-width: 630px;
+   
   }
   .photo img {
-    height: 400px;
-    width: 400px;
+    height: 60vw;
+    width: 60vw;
   }
 
   .presentation h3{
@@ -164,7 +164,7 @@ html {
   }
   .bandeau img{
     object-fit: cover;
-    height: 500px;
+    height: 35vh;
   }
   .bouton {
     margin-left: 5%;
