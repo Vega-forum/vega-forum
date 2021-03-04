@@ -42,8 +42,9 @@ html {
   padding:20px;
   justify-content: center;
   color: white;
+  text-align: center;
 }
-}
+
 
 .page_intervenants {
   display: flex;
@@ -138,6 +139,7 @@ html {
 @media screen and (max-width: 1000px){
   .bouton {
     width: 90%;
+    text-align: justify;
   }
   .intervenants_container {
     display: flex;
@@ -148,29 +150,27 @@ html {
   }
 
   .intervenants_item  {
-    min-width: 630px;
+   
   }
   .photo img {
-    height: 400px;
-    width: 400px;
+    height: 60vw;
+    width: 60vw;
   }
 
-  .presentation h3{
-    font-size: 36px;
-  }
+  
 
   .presentation p{
-    font-size: 30px;
+    font-size: 20px;
   }
   .bandeau img{
     object-fit: cover;
-    height: 500px;
+    height: 35vh;
   }
   .bouton {
     margin-left: 5%;
   }
 
   .bouton p {
-    font-size: 30px;
+    font-size: 20px;
   }
 }

@@ -1,19 +1,33 @@
 
-/*css Qui sommes nous*/
+/*css Déroulement de l'évenement*/
 
+h2{
 
-
-
-/* page */
-
-.together {
-align-items: center;
-justify-content: center;
-max-width:100%;
-margin-top: -20px;
+  color: #fe8664;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
 
 }
-/*petit contrôle de l'image tmtc */
+
+h3{
+
+  background-color: #432482;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 8px;
+  padding: 1%;
+  max-width: 200px;
+
+}
+
+.p-custom-1{
+
+  font-size: 18px;
+  padding: 3%;
+
+}
+
 
 .bandeau img{
   max-width: 100%;
@@ -23,85 +37,80 @@ margin-top: -20px;
 
 }
 
-/*Le container pour les deux divs du bas */
 
-.page_container {
+
+#programme{
+
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+
+}
+
+/*
+
+.nom-i{
+
+  color: #fe8664;
+  font-weight: bolder;
+
+}
+
+*/
+
+#cadre{ /**/
+
+  padding: 2%;
+  margin: 2%;
+  background: white;
   display: flex;
   flex-direction: row;
-  padding: 15px;
-  background-color: lightgrey;
-
+  justify-content: center;
+  
 
 }
 
-/*ça c'est la partie gauche avec le texte et les questions */
+.cadre-inter{
 
-.desc_event{
-display: flex;
-flex-direction: column; /*c'est juste pour superposer les textes */
-flex-grow: 1;
-max-width: 50%;
-justify-content: center;
-align-items: center;
-background-color: white;
-border: 1px black solid;
+  border: #d8d8d8 2px solid;
+  min-width: 200px;
+  max-width: 200px;
+  margin: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  
+
 }
 
-.desc_event h1 {
-  color:#432482;
-  font-size:18px;
-  text-transform: uppercase; /* stylé ça ça met tout en majuscule*/
-  text-align: center;
-}
+#cadre2{
 
-.desc_event p {
-  color:#fe8664;
-  font-size:25px;
-  text-align: center;
-  font-style: italic;
-}
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: white;
+  padding: 2%;
 
-.desc_event span {
-  color: red;
-}
-/* image de droite logique ta capté*/
-.img_event {
-display: flex;
-flex-grow: 1;
-justify-content: center;
-align-items: center;
-}
-
-.img_event img{
-  border: 1px black solid;
 }
 
 
 
-/*Footer*/
 
-/**/
 
-@media screen and (max-width: 1080px) {
 
-  .bandeau img{
-  object-fit: cover;
-  height: 240px;
-}
-.page_container {
-  display: flex;
+
+
+@media screen and (max-width: 1000px){
+
+
+#cadre{
+
+
   flex-direction: column;
-}
-.desc_event {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-.img_event img {
-  object-fit: cover; /* GIIIIIIIIIIIGA IMPPPPPPOOOOOOOOOOOOOOOORTANT pour les images responsives qui dépassent des divs ou de l'écran*/
-  width:  100%;
-}
+  align-items: center;
+  
 
 }
 
-}
-/**/
+
+
+  }
